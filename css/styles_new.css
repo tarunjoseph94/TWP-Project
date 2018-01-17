@@ -1356,6 +1356,15 @@ div #imgdiv
 {
     display: none;
 }
+    .career-content-div li {
+    font-size: 13px;
+    list-style: circle;
+}
+.fileUpload {
+    background: none;
+    border: none;
+    box-shadow: none;
+}
 @media (max-width: 468px){
     .bg-careeers {
     background:none;
@@ -1741,19 +1750,6 @@ video {
     margin-left: 0px;
     margin-bottom: 10px;
    }
-   .item.clients.active
-{
-    min-height: 630px;
-    background-color: white;
-}
-.item.clients
-{
-    background-color: white;
-}
-  .contact-us-map
-  {
-    width: 100%;
-  }
   .marginmobilemenu
   {
     margin-left: 10px;
@@ -1770,14 +1766,6 @@ video {
 
   }
 
-.icon img
-{
-    width: 20px;
-    }
-    .icon
-    {
-        width: 30px;
-    }
     h2.feat {
         margin-left: 30px;
     }
@@ -1785,36 +1773,6 @@ video {
     {
         margin-left: 30px;
     }
-    .feat-icon img {
-    width: 20px;
-}
-
-.feat-content
-{
-    margin-left: -10px;
-}
-    .content.marginleftminus25 {
-        margin-left: 0px;
-    }
-    .marginleftmobile30
-    {
-        margin-left: 30px;
-    }
-    .margin-left
-    {
-        margin-left: 30px;
-    }
-    .margin-left30
-    {
-        margin-left: 0px;
-    }
-.feat.marginleft20 {
-    margin-left: 0px;
-}
- .marginleft0
-{
-    margin-left: 0px;
-}
 
 .height-stories .owl-theme .owl-controls {
     position: absolute;
@@ -1855,11 +1813,6 @@ section.projects1 {
 .col-sm-12.slider-projects
 {
     margin-left: 30px;
-}
-.clients-content
-{
-    margin-left: 0px;
-    margin-top: 20px;
 }
 .mobilewidth80
 {
@@ -2099,6 +2052,12 @@ header #logo {
 div#logo img {
     height: 110px;
 }
+.top-header
+{
+    margin-top: 3%;
+}
+/*End changes */
+/*Fixtures*/
 .fixtureResults
 {
 	float: left;
@@ -2149,14 +2108,7 @@ div#logo img {
     background-color: #3c4b68;
     height: 267px;
 }
-.parallax-banner-squad{
-	background-image: url(../images/banners/banner-squad.jpg);
-	background-position: 100%;
-	padding: 60px 0px 60px 0px;
-	background-repeat: no-repeat;
-	background-color: #3c4b68;
-	height: 267px;
-}
+
 .Upcoming.fixturesCarousel
 {
 	margin-left: 5%;
@@ -2171,17 +2123,20 @@ div#logo img {
 .Upcoming.fixtureResults {
     margin-bottom: 10%;
 }
+
 .btm-spacer-services-fixtures {
     padding-top: 410vh;
 	}
-	.career-content-div li {
-    font-size: 13px;
-    list-style: circle;
-}
-.fileUpload {
-    background: none;
-    border: none;
-    box-shadow: none;
+ /*End Fixtures */   
+
+/*Squad */
+.parallax-banner-squad{
+    background-image: url(../images/banners/banner-squad.jpg);
+    background-position: 100%;
+    padding: 60px 0px 60px 0px;
+    background-repeat: no-repeat;
+    background-color: #3c4b68;
+    height: 267px;
 }
 .squadContainer {
   position: relative;
@@ -2223,8 +2178,88 @@ div#logo img {
   -ms-transform: translate(-50%, -50%);
   text-align: center;
 }
-.top-header
-{
-	margin-top: 3%;
+/* Tabs panel */
+.tabbable-panel {
+  
+  padding: 10px;
 }
-/*End changes */
+
+/* Default mode */
+.tabbable-line > .nav-tabs {
+  border: none;
+  margin: 0px;
+}
+.tabbable-line > .nav-tabs > li {
+  margin-right: 2px;
+}
+.tabbable-line > .nav-tabs > li > a {
+  border: 0;
+  margin-right: 0;
+  color: #737373;
+  font-size: 25px;
+}
+.tabbable-line > .nav-tabs > li > a > i {
+  color: #a6a6a6;
+}
+.tabbable-line > .nav-tabs > li.open, .tabbable-line > .nav-tabs > li:hover {
+  border-bottom: 4px solid #7c94e0;
+}
+.tabbable-line > .nav-tabs > li.open > a, .tabbable-line > .nav-tabs > li:hover > a {
+  border: 0;
+  background: none !important;
+  color: #333333;
+}
+.tabbable-line > .nav-tabs > li.open > a > i, .tabbable-line > .nav-tabs > li:hover > a > i {
+  color: #a6a6a6;
+}
+.tabbable-line > .nav-tabs > li.open .dropdown-menu, .tabbable-line > .nav-tabs > li:hover .dropdown-menu {
+  margin-top: 0px;
+}
+.tabbable-line > .nav-tabs > li.active {
+  border-bottom: 4px solid #2b479e;
+  position: relative;
+}
+.tabbable-line > .nav-tabs > li.active > a {
+  border: 0;
+  color: #333333;
+  font-size: 25px;
+}
+.tabbable-line > .nav-tabs > li.active > a > i {
+  color: #404040;
+}
+.tabbable-line > .tab-content {
+  margin-top: -3px;
+  background-color: #fff;
+  border: 0;
+  border-top: 1px solid #eee;
+  padding: 15px 0;
+}
+.portlet .tabbable-line > .tab-content {
+  padding-bottom: 0;
+}
+
+/* Below tabs mode */
+
+.tabbable-line.tabs-below > .nav-tabs > li {
+  border-top: 4px solid transparent;
+}
+.tabbable-line.tabs-below > .nav-tabs > li > a {
+  margin-top: 0;
+}
+.tabbable-line.tabs-below > .nav-tabs > li:hover {
+  border-bottom: 0;
+  border-top: 4px solid #fbcdcf;
+}
+.tabbable-line.tabs-below > .nav-tabs > li.active {
+  margin-bottom: -2px;
+  border-bottom: 0;
+  border-top: 4px solid #f3565d;
+}
+.tabbable-line.tabs-below > .tab-content {
+  margin-top: -10px;
+  border-top: 0;
+  
+  padding-bottom: 15px;
+}
+/*End Squad */
+
