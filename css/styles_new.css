@@ -2112,7 +2112,7 @@ div#logo img {
 }
 
 .btm-spacer-services-fixtures {
-    padding-top: 410vh;
+    padding-top: 345vh;
 	}
  /*End Fixtures */
 
@@ -2252,3 +2252,8 @@ div#logo img {
   padding-bottom: 15px;
 }
 /*End Squad */
+.header-name {
+    position: absolute;
+    left: 240px;
+    top: -35px;
+}
